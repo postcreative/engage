@@ -1,0 +1,206 @@
+/* 
+
+* Engage base - module styles
+*
+*
+*/ 
+
+
+/* ====================================================================================================================
+
+ 	PARTICIPATION DATABASE
+	 
+=========================================================================================================================
+*/
+
+
+.form-horizontal .control-label {
+    width: 140px;
+}
+
+table.form-table .selectother {
+    border-width: 0;
+}
+
+table.form-table tr td {
+    padding-top: 20px;
+}
+
+table.form-table tr th {
+    width: 150px;
+}
+
+div.link-element input {
+    margin-right: 20px;
+}
+
+.participants-database input[type="radio"], .pdb-record input[type="checkbox"] {
+    margin-right: 5px;
+    margin-top: -2px;
+}
+
+#pdb-photo input[type="file"] {
+    height: 30px;
+    line-height: 15px;
+}
+
+.participants-database label.file-delete input {
+    margin-left: 5px;
+    margin-top: -2px;
+}
+
+#pdb-mailing_list input {
+    margin-top: 5px;
+}
+
+	
+span.donation_radio.project {
+    font-weight: bold;
+}
+
+
+/* ====================================================================================================================
+
+ 	DONATIONS
+	 
+=========================================================================================================================
+*/
+
+
+/* Donatations Form & List
+========================== */
+
+p.donation label:active {
+	background: #eee !important;
+}
+
+#donor_information p {
+    margin-bottom: 10px;
+}
+
+#hide_donor, #hide_amount {
+    margin-top: -5px;
+}
+
+
+p.donation label span:before {
+    content: "";
+    color: #000;
+}
+
+
+p.ewd_associated_project a {
+    color: #000000;
+}
+
+#donations-list{
+	padding-bottom:50px;
+}
+
+label.file-delete input {
+    margin-left: 5px;
+}
+
+
+
+
+
+/* ====================================================================================================================
+
+ 	SLIDESHOWS & GALLERIES
+	 
+=========================================================================================================================
+*/
+
+
+.rsMinW, .rsMinW .rsOverflow, .rsMinW .rsSlide, .rsMinW .rsVideoFrameHolder, .rsMinW .rsThumbs, .rsMinW a, .rsMinW .rsOverflow a, .rsMinW .rsSlide a, .rsMinW .rsVideoFrameHolder a, .rsMinW .rsThumbs a {
+    background: #fff!important;
+    color: #fff!important;
+}
+
+
+/* ====================================================================================================================
+
+ 	EVENTS
+	 
+=========================================================================================================================
+*/
+
+
+
+
+/* ====================================================================================================================
+
+ 	WOOCOMMERCE
+	 
+=========================================================================================================================
+*/
+
+
+.woocommerce div.span12 {
+    padding-left: 5px;
+}
+
+.woocommerce div.panel.entry-content h2 {
+    display: none;
+}
+
+
+
+.woocommerce .related ul.products li.product img, .woocommerce .related ul li.product img, .woocommerce .upsells.products ul.products li.product img, .woocommerce .upsells.products ul li.product img, .woocommerce-page .related ul.products li.product img, .woocommerce-page .related ul li.product img, .woocommerce-page .upsells.products ul.products li.product img, .woocommerce-page .upsells.products ul li.product img, .woocommerce div.product div.images img, .woocommerce #content div.product div.images img, .woocommerce-page div.product div.images img, .woocommerce-page #content div.product div.images img, .woocommerce div.product div.images div.thumbnails a, .woocommerce #content div.product div.images div.thumbnails a, .woocommerce-page div.product div.images div.thumbnails a, .woocommerce-page #content div.product div.images div.thumbnails a {
+    width: auto !important;
+}
+
+
+.woocommerce .product h3 {
+    line-height: 20px;
+}
+
+.woocommerce td.label {
+    padding-top: 0;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #000;
+    text-shadow: none;
+    background-color: #fff;
+}
+
+
+.woocommerce .related ul.products li.product, .woocommerce .related ul li.product, .woocommerce .upsells.products ul.products li.product, .woocommerce .upsells.products ul li.product, .woocommerce-page .related ul.products li.product, .woocommerce-page .related ul li.product, .woocommerce-page .upsells.products ul.products li.product, .woocommerce-page .upsells.products ul li.product {
+    width: 22.5% !important;
+}
+
+.woocommerce div.product div.images div.thumbnails a, .woocommerce #content div.product div.images div.thumbnails a, .woocommerce-page div.product div.images div.thumbnails a, .woocommerce-page #content div.product div.images div.thumbnails a {
+	margin:0 0 20px 20px!important;
+	}
+
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    width: 30%!important;
+    float:right!important;
+    text-align: left!important;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    margin:0 20px 40px 0!important;
+  
+}
+
+.woocommerce select.orderby {
+    margin-right: 20px;
+}
+
+
+/* Increase the gutter for sidebar pages - for a less cluttered feel 
+
+
+.woocommerce #main.span9 {
+    width: 680px;
+    margin-right: 20px;
+}
+
+
+*/

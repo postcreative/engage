@@ -1,0 +1,239 @@
+/*
+
+Theme Name: 	Engage (master)
+Description: 	The Engage base theme
+Version: 		1.0
+Author: 		Post Creative
+
+*/
+
+/*   ====================================================================================================================
+
+ 	WORDPRESS CORE
+	 
+=========================================================================================================================
+*/
+
+.clear{
+	clear:both;
+}
+
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}
+
+
+/*   ====================================================================================================================
+
+ 	BASE THEME STYLES
+	 
+=========================================================================================================================
+*/
+
+
+header.archive.page-header h1 {
+    text-transform: capitalize!important;
+}
+
+.header-menu li.menu-item {
+    padding-bottom: 10px; /* to allow the nav to wrap onto two lines */
+}
+
+footer.content-info{
+	margin:40px 0 20px 0;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding:20px 0 10px 0;
+}
+
+#sidebar h3{
+	line-height:28px;
+}
+
+
+/* Posts
+========================== */
+
+h2.entry-title {
+    margin-bottom: 20px;
+}
+	
+	
+.meta{
+	margin:20px 0;
+}
+
+article footer{
+	margin-top:20px;
+}
+
+#comments ol{
+	margin-left:0;
+	list-style:none;
+}
+
+#comments li{
+    margin-bottom:20px;
+}
+
+.meta span, .meta time {
+    margin-right: 20px;
+}
+
+i.icon-comment-alt.icon-2x {
+    margin-left: -18px;
+}
+
+.meta span.p-comments {
+    font-size: 11px;
+}
+
+.meta span sub {
+    bottom: -0.35em;
+    font-size: 13px;
+}
+
+h4.comment-heading {
+    margin-top: 0;
+}
+
+
+
+/* Social Media Buttons - Contact page
+   =================================== */
+
+.vcard .facebook {
+	background-image: url('../engage/images/facebook.png');
+	display: block;
+	height: 33px;
+	width: 32px;
+}
+
+.vcard .twitter {
+	background-image: url('../engage/images/twitter.png');
+	display: block;
+	height: 33px;
+	width: 32px;
+}
+
+.vcard .pinterest {
+	background-image: url('../engage/images/pinterest.png');
+	display: block;
+	height: 33px;
+	width: 32px;
+}
+
+.vcard a {
+	float: left;
+	margin-right: 5px;
+}
+
+
+
+
+/* Default widgets
+   =================================== */
+   
+
+.widget {
+	margin-bottom:20px; 
+	padding-bottom:20px; 
+	border-bottom: 1px solid #f0f0f0;
+	}
+
+.widget form select {
+    max-width: 96%;
+	}
+
+ .widget ul {
+    list-style: none;
+    margin-left: 0;
+	}
+
+.widget ul ul{
+	margin-left:15px;
+	}
+
+.widget ul li{
+	margin-bottom:5px;
+	}
+
+
+
