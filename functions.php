@@ -89,6 +89,14 @@ add_action( 'template_redirect', 'engage_adjust_content_width' );
 
 
 
+		// custom admin login logo
+function custom_login_logo() {
+	echo '<style type="text/css">
+	h1 a { background-image: url('.get_bloginfo('template_directory').'/images/login-logo.png) !important; background-size: 150px 150px!important; height: 150px!important; width: 150px!important;}
+	</style>';
+}
+add_action('login_head', 'custom_login_logo');
+
 
 /*   ====================================================================================================================
 
