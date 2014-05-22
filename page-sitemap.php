@@ -9,7 +9,7 @@ Template Name: Sitemap Page
 <article>
 
 <header class="page-header">
-<h1>Sitemap <i class="icon-sitemap"></i></h1>
+<h1 class="page-header">Sitemap <i class="icon-sitemap"></i></h1>
 </header>
 	<div class="span6">
 	

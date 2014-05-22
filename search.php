@@ -5,10 +5,13 @@
 ?>
 <?php get_header(); ?>
 <div id="content" class="row clearfix">
-      <div id="main" class="span9" role="main">
+      <div id="main" class="span8" role="main">
       
 <?php if ( have_posts() ): ?>
-<h1>Search Results for '<?php echo get_search_query(); ?>'</h1>	
+
+      <header class="page-header">
+             <h1>Search Results for '<?php echo get_search_query(); ?>'</h1>	
+          </header>
 
 <?php while ( have_posts() ) : the_post(); ?>
 
@@ -24,7 +27,7 @@
 </footer>
      </div><!-- /#main -->
 
-<div id="sidebar" class="span3" >
+<div id="sidebar" class="span4" >
 <?php dynamic_sidebar('search'); ?>
 </div>
 

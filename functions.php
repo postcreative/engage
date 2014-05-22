@@ -16,8 +16,6 @@
      
  require_once('library/wp_bootstrap_navwalker.php');
  
- require_once('library/engage-editor-functions.php');
- 
  require_once('library/pagination.php');
 
 
@@ -31,13 +29,13 @@
 */
 
 if ( ! isset( $content_width ) )
-    $content_width = 680;
+    $content_width = 770;
  
 function engage_adjust_content_width() {
     global $content_width;
  
     if ( is_page_template( 'page-fullwidth.php' ) )
-        $content_width = 940;
+        $content_width = 1170;
 }
 add_action( 'template_redirect', 'engage_adjust_content_width' );
 
@@ -89,13 +87,6 @@ add_action( 'template_redirect', 'engage_adjust_content_width' );
 
 
 
-		// custom admin login logo
-function custom_login_logo() {
-	echo '<style type="text/css">
-	h1 a { background-image: url('.get_bloginfo('template_directory').'/images/login-logo.png) !important; background-size: 150px 150px!important; height: 150px!important; width: 150px!important;}
-	</style>';
-}
-add_action('login_head', 'custom_login_logo');
 
 
 /*   ====================================================================================================================

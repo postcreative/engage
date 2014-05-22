@@ -10,17 +10,22 @@
 ?>
 <?php get_header(); ?>
 
-<div id="content" class="row clearfix">
-
-    <div id="main" class="span9" role="main">
+	<div id="content" class="row clearfix">
+		
+		<article class="post-<?php the_ID(); ?>" <?post_class(); ?>>
+		      <div id="main" class="span8" role="main">	
+		           <header class="page-header">
+              <h1><?php the_title(); ?>	</h1>
+          </header>
     
         <?php while (have_posts()) : the_post(); ?>
 		<?php the_content(); ?>
 		<?php endwhile; /* End loop */ ?>
 
     </div><!-- /#main -->
-
-	<div id="sidebar" class="span3" >
+		</article>
+		
+	<div id="sidebar" class="span4" >
 		<?php dynamic_sidebar('page'); ?>
 	</div>
 

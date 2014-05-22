@@ -7,7 +7,7 @@
 <?php get_header(); ?>
 
 <div id="content" class="row clearfix">
-      <div id="main" class="span9" role="main">
+      <div id="main" class="span8" role="main">
 
         <?php while (have_posts()) : the_post(); ?>
       <header class="page page-header">
@@ -22,7 +22,7 @@
      
      </div><!-- /#main -->
 
-<div id="sidebar" class="span3" >
+<div id="sidebar" class="span4" >
 <?php dynamic_sidebar('shop-general'); ?>
 </div>
 
